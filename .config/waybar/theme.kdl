@@ -1,9 +1,1 @@
-layout {
-  focus-ring {
-    inactive-color "#c1c1c1"
-  }
 
-  border {
-    inactive-color "#c1c1c1"
-  }
-}
