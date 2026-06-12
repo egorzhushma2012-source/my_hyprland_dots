@@ -123,7 +123,7 @@ spawn-at-startup "xwayland-satellite"
 spawn-sh-at-startup "waybar -c .config/waybar/config_niri.jsonc -s .config/waybar/style_niri.css"
 spawn-at-startup "wl-paste" "--type" "text" "--watch" "cliphist" "store"
 spawn-at-startup "wl-paste" "--type" "image" "--watch" "cliphist" "store"
-
+spawn-at-startup "/home/egor/wall_change.sh"
 hotkey-overlay {
   // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
   // skip-at-startup
