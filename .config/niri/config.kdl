@@ -49,12 +49,21 @@ input {
   //max-scroll-amount="0%"
 }
 
+// Помещает слой с обоями в фон (backdrop)
+layer-rule {
+    // Замените namespace на имя вашего процесса обоев 
+    // (узнать можно командой: niri msg layers)
+    match namespace="^awww-daemon$" 
+    place-within-backdrop true
+}
 
-// Settings that influence how windows are positioned and sized.
+
+
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Layout
 layout {
   gaps 16
+  background-color "transparent"
 
   // When to center a column when changing focus, options are:
   // - "never", default behavior, focusing an off-screen column will keep at the left
